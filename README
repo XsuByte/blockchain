@@ -14,8 +14,8 @@ To build xsubyte from source code use the below commands, The resulting executab
 
 sudo apt-get update
 sudo apt-get -y git install build-essential gcc g++ git cmake libboost-all-dev
-git clone https://github.com/xsubyte/xsubyte
-cd xsubyte
+git clone https://github.com/XsuByte/blockchain.git
+cd blockchain
 chmod +x external/rocksdb/build_tools/build_detect_platform
 chmod +x external/rocksdb/build_tools/version.sh
 export CXXFLAGS="-std=gnu++11"
